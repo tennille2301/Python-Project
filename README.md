@@ -99,7 +99,7 @@ print(classification_report(y_test, y_pred))
 
 ## 3. Algorithm
 
-### 11. CatBoost
+### CatBoost
 
 ```python
 from catboost import CatBoostClassifier 
@@ -108,7 +108,7 @@ classifier.fit(X_train, y_train)
 y_pred = classifier.predict(X_test)
 ```
 
-### 13. k-Nearest Neighbors
+### k-Nearest Neighbors
 
 ```python
 from sklearn.neighbors import KNeighborsClassifier 
@@ -117,7 +117,7 @@ classifier.fit(X_train, y_train)
 y_pred = classifier.predict(X_test)
 ```
 
-### 15. Support Vector Machine
+### Support Vector Machine
 
 ```python
 # kernel can be swapped: 'rbf', 'linear', 'poly', etc.
@@ -127,7 +127,7 @@ classifier.fit(X_train, y_train)
 y_pred = classifier.predict(X_test)
 ```
 
-### 17. Quadratic Discriminant Analysis (QDA)
+### Quadratic Discriminant Analysis (QDA)
 
 ```python
 from sklearn.discriminant_analysis import QuadraticDiscriminantAnalysis 
@@ -136,7 +136,7 @@ classifier.fit(X_train, y_train)
 y_pred = classifier.predict(X_test)
 ```
 
-### 18. Multilayer Perceptron (Neural Network)
+### Multilayer Perceptron (Neural Network)
 
 ```python
 from sklearn.neural_network import MLPClassifier 
